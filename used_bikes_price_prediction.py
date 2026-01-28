@@ -1343,3 +1343,15 @@ ARTIFACTS SAVED:
 print("\n" + "="*60)
 print("PROJECT COMPLETED SUCCESSFULLY!")
 print("="*60)
+
+"""##**Conclusion**
+
+In this project, a supervised machine learning approach was used to predict the selling price of used bikes based on key factors such as bike age, kilometers driven, ownership type, and brand. Exploratory data analysis showed clear relationships between these features and price, and feature engineering helped capture real-world depreciation patterns more effectively.
+
+The final model demonstrated good generalization on unseen data, making it suitable for practical use cases such as estimating fair resale prices or supporting pricing decisions on online marketplaces. The use of a baseline model, multiple algorithms, and hyperparameter tuning ensured that model selection was based on performance rather than assumption.
+
+However, the dataset has certain limitations. Important factors like bike condition, service history, accident records, and regional demand were not available, which may affect prediction accuracy for extreme cases. With more detailed and diverse data, the model could be further improved and made more robust.
+
+Overall, this project presents a complete and well-structured machine learning pipeline, combining data analysis, feature engineering, model evaluation, and interpretation to build a reliable price prediction system.
+
+"""
